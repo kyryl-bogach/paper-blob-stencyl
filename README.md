@@ -16,9 +16,8 @@ It is uploaded in the `Stencyl Arcade App Store`: [Paper Blob](http://www.stency
 
 Since web browers have deprecated the usage of flash, we need to download the `Adobe Flash Player`. 
 
-1. Here is the link for the multiple versiones for each OS:
-[Download Adobe Flash Player Client](https://www.adobe.com/support/flashplayer/debug_downloads.html)
-2. Download or use the URL of the [.swf](paper_blob.swf) file
+1. [Download Adobe Flash Player Client](https://www.adobe.com/support/flashplayer/debug_downloads.html)
+2. Use this [URL](http://kyryl.bogach.es/paper_blob.swf) or download [.swf](paper_blob.swf) file and import it in the client
 
 ## Screenshots
 ### Main menu with tutorial:
