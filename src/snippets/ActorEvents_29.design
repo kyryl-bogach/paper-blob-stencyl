@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <dolater comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <apply-filter comment="false" x="37" y="67">
+                            <ACTOR eid="this" id="0"/>
+                            <filter-bright comment="false" id="1" x="0" y="0">
+                                <int id="0" val="80"/>
+                            </filter-bright>
+                        </apply-filter>
+                        <dolater comment="false" x="37" y="99">
+                            <group eventID="1" id="-1">
+                                <clear-filter comment="false" x="48" y="126">
+                                    <ACTOR eid="this" id="0"/>
+                                </clear-filter>
+                                <recycle comment="false" x="48" y="153">
+                                    <ACTOR eid="this" id="0"/>
+                                </recycle>
+                            </group>
+                            <int id="0" val="0.5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <int id="0" val="1.5"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

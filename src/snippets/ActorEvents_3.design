@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <ignore-screen-tolerance comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-2-1 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-val-2-1>
+                <actors-of-type3 comment="false" x="26" y="60">
+                    <group eventID="2" id="-1">
+                        <incdec comment="false" x="37" y="92">
+                            <int id="0" val="1"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </incdec>
+                    </group>
+                    <ACTORTYPE eid="1" id="0"/>
+                </actors-of-type3>
+                <if comment="false" x="26" y="131">
+                    <group eventID="2" id="-1">
+                        <actors-of-type3 comment="false" x="37" y="161">
+                            <group eventID="2" id="-1">
+                                <push-shove2 comment="false" x="48" y="193">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <to-degreesradians comment="false" id="2" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <atan2 comment="false" id="1" x="0" y="0">
+                                            <minus comment="false" id="0" x="0" y="0">
+                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                    <actor-of-type comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="3"/>
+                                                </get-xy>
+                                                <get-xy comment="false" id="1" x="0" y="0">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="3"/>
+                                                </get-xy>
+                                            </minus>
+                                            <minus comment="false" id="1" x="0" y="0">
+                                                <get-xy comment="false" id="0" x="0" y="0">
+                                                    <actor-of-type comment="false" id="0" x="0" y="0"/>
+                                                    <int id="1" val="2"/>
+                                                </get-xy>
+                                                <get-xy comment="false" id="1" x="0" y="0">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="2"/>
+                                                </get-xy>
+                                            </minus>
+                                        </atan2>
+                                    </to-degreesradians>
+                                    <int id="3" val="0.5"/>
+                                </push-shove2>
+                            </group>
+                            <ACTORTYPE eid="1" id="0"/>
+                        </actors-of-type3>
+                    </group>
+                    <noteq comment="false" id="0" x="0" y="0">
+                        <get-val-2-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </noteq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="3" desc="" eventsnippetid="0" extheight="684" extwidth="904" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="620" id="0" name="NIVEL" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="840">
+    <layers>
+        <layer color="0,255,0" id="2" name="Layer 2" order="0"/>
+        <layer color="0,0,255" id="1" name="Layer 1" order="1"/>
+        <layer color="100,168,234" id="0" name="Layer 0" order="2"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="0"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="1" name="Cara 1" sx="0.41509435" sy="0.4526316" x="297" y="187" z="1"/>
+        <actor a="0.0" aid="2" c="false" group="8" id="43" name="Corason xd 2" sx="1.0" sy="1.0" x="87" y="19" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="8" id="63" name="Furia 3" sx="1.0" sy="1.0" x="145" y="48" z="2"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="15">
+            <prop id="2" list="0" val="Pausa"/>
+        </s>
+    </snippets>
+    <terrain/>
+</scene>

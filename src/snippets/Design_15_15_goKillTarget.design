@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-group-region comment="false" x="26" y="33">
+            <group eventID="1" id="-1">
+                <print comment="false" x="37" y="65">
+                    <int id="0" val="Found"/>
+                </print>
+                <add-list comment="false" x="37" y="85">
+                    <get-val-15-18 comment="false" id="0" x="0" y="0"/>
+                    <actor-entered-exited comment="false" id="1" x="0" y="0"/>
+                </add-list>
+            </group>
+            <int id="0" val="0"/>
+            <get-val-15-2 comment="false" id="1" x="0" y="0"/>
+            <get-val-15-1 comment="false" id="2" x="0" y="0"/>
+        </event-group-region>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="4" id="0">
+        <receiver-1-19 comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-val-15-4 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-15-4>
+                <setvel comment="false" x="26" y="65">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </setvel>
+            </group>
+            <int id="0" val=""/>
+        </receiver-1-19>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <init comment="false" x="0" y="50">
+            <group eventID="5" id="-1">
+                <set-val-15-2 comment="false" x="11" y="75">
+                    <custom-16 comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <minus comment="false" id="1" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-xy>
+                            <get-val-15-5 comment="false" id="1" x="0" y="0"/>
+                        </minus>
+                        <minus comment="false" id="2" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-xy>
+                            <get-val-15-5 comment="false" id="1" x="0" y="0"/>
+                        </minus>
+                        <get-val-15-5 comment="false" id="3" x="0" y="0"/>
+                    </custom-16>
+                </set-val-15-2>
+                <set-val-15-26 comment="false" x="11" y="133">
+                    <custom-16 comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <minus comment="false" id="1" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-xy>
+                            <get-val-15-27 comment="false" id="1" x="0" y="0"/>
+                        </minus>
+                        <minus comment="false" id="2" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-xy>
+                            <get-val-15-27 comment="false" id="1" x="0" y="0"/>
+                        </minus>
+                        <get-val-15-27 comment="false" id="3" x="0" y="0"/>
+                    </custom-16>
+                </set-val-15-26>
+                <set-val-15-3 comment="false" x="11" y="191">
+                    <ACTOR eid="var" id="0" vid="25"/>
+                </set-val-15-3>
+            </group>
+        </init>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="11" id="0">
+        <event-group-create-kill comment="false" x="15" y="15">
+            <group eventID="11" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="11" id="-1">
+                        <remove-item comment="false" x="37" y="77">
+                            <get-val-15-18 comment="false" id="0" x="0" y="0"/>
+                            <actor-created-killed comment="false" id="1" x="0" y="0"/>
+                        </remove-item>
+                        <set-val-15-15 comment="false" x="37" y="102">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-15-15>
+                        <set-val-15-3 comment="false" x="37" y="127">
+                            <ACTOR eid="var" id="0" vid="25"/>
+                        </set-val-15-3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <actor-created-killed comment="false" id="0" x="0" y="0"/>
+                        <get-val-15-3 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <get-val-15-1 comment="false" id="1" x="0" y="0"/>
+        </event-group-create-kill>
+    </group>
+    <group eventID="11" id="-1"/>
+    <group eventID="12" id="0">
+        <receiver-9-18 comment="false" x="0" y="57">
+            <group eventID="12" id="-1">
+                <set-val-15-3 comment="false" x="11" y="82">
+                    <get-item comment="false" id="0" x="0" y="0">
+                        <get-val-15-18 comment="false" id="0" x="0" y="0"/>
+                        <randint comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <length-list comment="false" id="0" x="0" y="0">
+                                    <get-val-15-18 comment="false" id="0" x="0" y="0"/>
+                                </length-list>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </randint>
+                    </get-item>
+                </set-val-15-3>
+            </group>
+            <int id="0" val=""/>
+        </receiver-9-18>
+    </group>
+    <group eventID="12" id="-1"/>
+    <group eventID="13" id="0">
+        <event-group-region comment="false" x="24" y="23">
+            <group eventID="13" id="-1">
+                <print comment="false" x="35" y="55">
+                    <int id="0" val="Lost"/>
+                </print>
+                <remove-item comment="false" x="35" y="75">
+                    <get-val-15-18 comment="false" id="0" x="0" y="0"/>
+                    <actor-entered-exited comment="false" id="1" x="0" y="0"/>
+                </remove-item>
+                <if comment="false" x="35" y="100">
+                    <group eventID="11" id="-1">
+                        <set-val-15-3 comment="false" x="46" y="130">
+                            <ACTOR eid="var" id="0" vid="25"/>
+                        </set-val-15-3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <actor-entered-exited comment="false" id="0" x="0" y="0"/>
+                        <get-val-15-3 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <get-val-15-2 comment="false" id="1" x="0" y="0"/>
+            <get-val-15-1 comment="false" id="2" x="0" y="0"/>
+        </event-group-region>
+    </group>
+    <group eventID="13" id="-1"/>
+    <group eventID="15" id="0">
+        <event-actor-create-kill comment="false" x="15" y="15">
+            <group eventID="15" id="-1">
+                <custom-code comment="false" x="26" y="42">
+                    <int id="0" val="removeRegion(_RangeRegion.ID);"/>
+                </custom-code>
+                <custom-code comment="false" x="26" y="62">
+                    <int id="0" val="removeRegion(_attackRange.ID);"/>
+                </custom-code>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="1"/>
+        </event-actor-create-kill>
+    </group>
+    <group eventID="15" id="-1"/>
+    <group eventID="17" id="0">
+        <receiver-12-16 comment="false" x="15" y="15">
+            <group eventID="17" id="-1">
+                <return comment="false" x="26" y="45">
+                    <code-short comment="false" id="0" x="0" y="0">
+                        <int id="0" val="createCircularRegion((__x),(__y), (__range));"/>
+                    </code-short>
+                </return>
+            </group>
+            <int id="0" val=""/>
+            <get-byobval-15-66-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-15-66-2 comment="false" id="2" x="0" y="0"/>
+            <get-byobval-15-66-3 comment="false" id="3" x="0" y="0"/>
+        </receiver-12-16>
+    </group>
+    <group eventID="17" id="-1"/>
+    <group eventID="16" id="0">
+        <receiver-11-20 comment="false" x="15" y="15">
+            <group eventID="16" id="-1">
+                <custom-7 comment="false" x="26" y="45"/>
+            </group>
+            <get-byobval-15-62-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-15-62-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-11-20>
+    </group>
+    <group eventID="16" id="-1"/>
+    <group eventID="21" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="21" id="-1">
+                <follow-region comment="false" x="26" y="40">
+                    <get-val-15-2 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="1"/>
+                </follow-region>
+                <follow-region comment="false" x="26" y="72">
+                    <get-val-15-26 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="this" id="1"/>
+                </follow-region>
+                <if comment="false" x="26" y="104">
+                    <group eventID="8" id="-1">
+                        <setanim comment="false" x="37" y="134">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-15-16 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <is-empty comment="false" id="0" x="0" y="0">
+                        <get-val-15-18 comment="false" id="0" x="0" y="0"/>
+                    </is-empty>
+                </if>
+                <else comment="false" x="26" y="178">
+                    <group eventID="8" id="-1">
+                        <setanim comment="false" x="37" y="198">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-15-14 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                        <custom-18 comment="false" x="37" y="230">
+                            <ACTOR eid="this" id="0"/>
+                        </custom-18>
+                        <if comment="false" x="37" y="257">
+                            <group eventID="21" id="-1">
+                                <setanim comment="false" x="48" y="287">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-15-16 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-15-15 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </if>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="21" id="1">
+        <if comment="false" x="429" y="72">
+            <group eventID="8" id="-1">
+                <if comment="false" x="440" y="97">
+                    <group eventID="8" id="-1">
+                        <custom-17 comment="false" x="451" y="122">
+                            <ACTOR eid="this" id="0"/>
+                        </custom-17>
+                    </group>
+                    <get-val-15-21 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="440" y="161">
+                    <group eventID="8" id="-1">
+                        <custom-20 comment="false" x="451" y="181">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-15-3 comment="false" id="1" x="0" y="0"/>
+                        </custom-20>
+                    </group>
+                </else>
+            </group>
+            <get-val-15-15 comment="false" id="0" x="0" y="0"/>
+        </if>
+        <else comment="false" x="429" y="237">
+            <group eventID="8" id="-1"/>
+        </else>
+    </group>
+    <group eventID="21" id="2">
+        <dolater comment="false" x="300" y="382">
+            <group eventID="21" id="-1"/>
+            <int id="0" val=""/>
+            <ACTOR eid="this" id="2"/>
+        </dolater>
+        <print comment="false" x="300" y="441">
+            <int id="0" val="attacking"/>
+        </print>
+    </group>
+    <group eventID="21" id="-1">
+        <div comment="false" x="382" y="330">
+            <get-val-15-24 comment="false" id="0" x="0" y="0"/>
+            <get-val-15-22 comment="false" id="1" x="0" y="0"/>
+        </div>
+    </group>
+    <group eventID="20" id="0">
+        <receiver-13-17 comment="false" x="0" y="35">
+            <group eventID="20" id="-1">
+                <create-recycled-actor comment="false" x="11" y="60">
+                    <ACTORTYPE eid="var" id="0" vid="30"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-recycled-actor>
+            </group>
+            <int id="0" val=""/>
+        </receiver-13-17>
+    </group>
+    <group eventID="20" id="1">
+        <periodic comment="false" x="86" y="363">
+            <group eventID="20" id="-1"/>
+            <div comment="false" id="0" x="0" y="0">
+                <get-val-15-24 comment="false" id="0" x="0" y="0"/>
+                <get-val-15-22 comment="false" id="1" x="0" y="0"/>
+            </div>
+            <ACTOR eid="this" id="2"/>
+        </periodic>
+    </group>
+    <group eventID="20" id="-1">
+        <times comment="false" x="439" y="327">
+            <getdir comment="false" id="0" x="0" y="0">
+                <ACTOR eid="this" id="0"/>
+            </getdir>
+            <get-wh comment="false" id="1" x="0" y="0">
+                <ACTOR eid="this" id="0"/>
+                <int id="1" val="3"/>
+            </get-wh>
+        </times>
+        <str-combine comment="false" x="345" y="263">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </str-combine>
+        <str-combine comment="false" x="651" y="190">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </str-combine>
+    </group>
+    <group eventID="23" id="0">
+        <event-group-region comment="false" x="15" y="15">
+            <group eventID="23" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="22" id="-1">
+                        <set-val-15-15 comment="false" x="37" y="77">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-15-15>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <actor-entered-exited comment="false" id="0" x="0" y="0"/>
+                        <get-val-15-3 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <REGION eid="var" id="1" vid="26"/>
+            <GROUP eid="var" id="2" vid="1"/>
+        </event-group-region>
+    </group>
+    <group eventID="23" id="-1"/>
+    <group eventID="22" id="0">
+        <event-group-region comment="false" x="15" y="15">
+            <group eventID="22" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="22" id="-1">
+                        <set-val-15-15 comment="false" x="37" y="77">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-15-15>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <actor-entered-exited comment="false" id="0" x="0" y="0"/>
+                        <get-val-15-3 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="0"/>
+            <REGION eid="var" id="1" vid="26"/>
+            <GROUP eid="var" id="2" vid="1"/>
+        </event-group-region>
+    </group>
+    <group eventID="22" id="-1"/>
+    <group eventID="24" id="0">
+        <event-periodic comment="false" x="20" y="15">
+            <group eventID="24" id="-1">
+                <if comment="false" x="31" y="50">
+                    <group eventID="8" id="-1">
+                        <setanim comment="false" x="42" y="75">
+                            <ACTOR eid="this" id="0"/>
+                            <get-val-15-14 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                        <dolater comment="false" x="42" y="107">
+                            <group eventID="24" id="-1">
+                                <if comment="false" x="53" y="139">
+                                    <group eventID="8" id="-1">
+                                        <custom-17 comment="false" x="64" y="164">
+                                            <ACTOR eid="this" id="0"/>
+                                        </custom-17>
+                                    </group>
+                                    <get-val-15-21 comment="false" id="0" x="0" y="0"/>
+                                </if>
+                                <else comment="false" x="53" y="203">
+                                    <group eventID="8" id="-1">
+                                        <custom-20 comment="false" x="64" y="223">
+                                            <ACTOR eid="this" id="0"/>
+                                            <get-val-15-3 comment="false" id="1" x="0" y="0"/>
+                                        </custom-20>
+                                    </group>
+                                </else>
+                            </group>
+                            <get-val-15-24 comment="false" id="0" x="0" y="0"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <get-val-15-15 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+            <div comment="false" id="0" x="0" y="0">
+                <int id="0" val="1"/>
+                <get-val-15-22 comment="false" id="1" x="0" y="0"/>
+            </div>
+        </event-periodic>
+    </group>
+    <group eventID="24" id="1">
+        <print comment="false" x="367" y="359">
+            <int id="0" val="melee"/>
+        </print>
+    </group>
+    <group eventID="24" id="2">
+        <print comment="false" x="415" y="173">
+            <int id="0" val="ranged"/>
+        </print>
+    </group>
+    <group eventID="24" id="-1"/>
+</groups>

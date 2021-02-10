@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="28" extheight="704" extwidth="896" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="640" id="2" name="MENU" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="832">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="0"/>
+    </backgrounds>
+    <foregrounds/>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="78" id="0" name="Region 0" pts="4,435.0,0.0,435.0,78.0,0.0,78.0,0.0,0.0" r="64" type="box" w="435" x="189" y="211"/>
+        <region b="64" g="64" h="101" id="1" name="Region 1" pts="4,146.0,0.0,146.0,101.0,0.0,101.0,0.0,0.0" r="64" type="box" w="146" x="657" y="117"/>
+        <region b="64" g="64" h="31" id="2" name="Region 2" pts="4,137.0,0.0,137.0,31.0,0.0,31.0,0.0,0.0" r="64" type="box" w="137" x="12" y="594"/>
+        <region b="64" g="64" h="41" id="3" name="Region 3" pts="4,126.0,0.0,126.0,41.0,0.0,41.0,0.0,0.0" r="64" type="box" w="126" x="192" y="589"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="66" name="MENuh 1" sx="1.0" sy="1.0" x="14" y="8" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+</scene>
