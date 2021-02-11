@@ -4,7 +4,7 @@
 
 This was my first flash game/project developed in high school. I believe this was the *click* to start coding and start my software journey.
 
-When I was in my first yearn in the `Software Engineer` degree I developed a C version from Scratch: [Paper Blob - SDL](https://github.com/kyryl-bogach/paper-blob-sdl)
+When I was in my first year at the `Software Engineer` degree I developed a C version from Scratch: [Paper Blob - SDL](https://github.com/kyryl-bogach/paper-blob-sdl)
 
 ## Files
 * `paper_blob.swf` is the flash game itself that must be loaded
@@ -32,3 +32,7 @@ Since web browers have deprecated the usage of flash, we need to download the `A
 _**Secret**: If you are in the shop and you click in the same position as in the shop screenshot, you will earn 100 coins 😁_
 
 _**Fun fact**: As you can see, the `money` counter were not supported for +99 coins because I never thought anyone would gather that many coins_ 
+
+
+## Contributor
+Brawn by: [@vlad-gre](https://github.com/vlad-gre)
