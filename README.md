@@ -35,4 +35,4 @@ _**Fun fact**: As you can see, the `money` counter were not supported for +99 co
 
 
 ## Contributor
-Brawn by: [@vlad-gre](https://github.com/vlad-gre)
+Drawn by: [@vlad-gre](https://github.com/vlad-gre)
